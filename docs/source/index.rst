@@ -7,5 +7,5 @@ Hi!
     :maxdepth: 4
     :glob:
 
-    code-cells
-    code-cells2
+    dummy
+    chapter_colorwheel
