@@ -9,6 +9,8 @@ Hello world this is the first chapter!
     :maxdepth: 2
 
        code-cells
+       code-cells2
+
 
 
 .. Indices and tables
