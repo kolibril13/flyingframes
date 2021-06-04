@@ -52,6 +52,7 @@ extensions = [
     'nbsphinx'
 ]
 
+nbsphinx_allow_errors = True
 pygments_style = "sphinx"
 pygments_dark_style = "monokai"
 
