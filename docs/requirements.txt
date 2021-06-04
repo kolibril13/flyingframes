@@ -2,4 +2,4 @@ sphinx==3.5.3
 furo==2021.3.20b30
 sphinx-copybutton
 nbsphinx
-git+git://github.com/kolibril13/manim/tree/flyingframes
+git+git://github.com/kolibril13/manim@flyingframes
