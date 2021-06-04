@@ -49,7 +49,7 @@ release = '7/2021'
 extensions = [
     'manim_directive',
     'sphinx.ext.autodoc',
-    'sphinx.ext.autosummary'
+    'sphinx.ext.autosummary',
     'nbsphinx'
 ]
 
