@@ -47,7 +47,6 @@ release = '7/2021'
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = [
-    'manim_directive',
     'sphinx.ext.autodoc',
     'sphinx.ext.autosummary',
     'nbsphinx'
