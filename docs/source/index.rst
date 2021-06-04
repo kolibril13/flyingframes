@@ -9,3 +9,4 @@ Hi!
 
     code-cells
     code-cells2
+    example3
