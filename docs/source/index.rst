@@ -21,7 +21,7 @@ Hello world this is the first chapter!
  .. toctree::
     :maxdepth: 2
 
-       chapter1
+       code-cells
 
 
 .. Indices and tables
