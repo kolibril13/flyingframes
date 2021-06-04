@@ -3,6 +3,7 @@ Example Gallery
 
 Hi!
 Hello
+
 .. toctree::
     :maxdepth: 4
     :glob:
