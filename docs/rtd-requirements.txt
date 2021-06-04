@@ -1,1 +1,3 @@
 imageio-ffmpeg
+ipykernel
+nbsphinx
