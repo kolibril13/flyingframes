@@ -50,6 +50,7 @@ extensions = [
     'manim_directive',
     'sphinx.ext.autodoc',
     'sphinx.ext.autosummary'
+    'nbsphinx'
 ]
 
 pygments_style = "sphinx"

@@ -18,10 +18,10 @@ Hello world this is the first chapter!
 
 
             
-.. .. toctree::
-..    :maxdepth: 2
-..
-..       examples
+ .. toctree::
+    :maxdepth: 2
+
+       chapter1
 
 
 .. Indices and tables
