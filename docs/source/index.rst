@@ -1,7 +1,8 @@
  Example Gallery
 ========================================
 
-Here is the directive example
+Hello world this is the first chapter!
+
 
 .. manim:: ManimCELogo
 
@@ -14,6 +15,9 @@ Here is the directive example
             self.play(banner.expand())
             self.wait()
 
+
+
+            
 .. .. toctree::
 ..    :maxdepth: 2
 ..
