@@ -33,12 +33,12 @@ if os.environ.get("READTHEDOCS") == "True":
 
 # -- Project information -----------------------------------------------------
 
-project = 'manim_directive_template'
-copyright = 'ManimCommunity'
+project = 'FlyingFrames'
+copyright = 'kolibril13'
 author = 'kolibril13'
 
 # The full version, including alpha/beta/rc tags
-release = '5/2021'
+release = '7/2021'
 
 
 # -- General configuration ---------------------------------------------------
