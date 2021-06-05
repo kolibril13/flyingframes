@@ -9,3 +9,4 @@ Hi!
 
     dummy
     chapter_colorwheel
+    snippets
