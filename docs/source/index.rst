@@ -7,7 +7,7 @@ Hi!
     :maxdepth: 4
     :glob:
 
-    dummy
-    chapter_colorwheel
-    snippets
-    tipsandtricks
+    ch1
+    ch2
+    ch3
+    ch4_color_example
