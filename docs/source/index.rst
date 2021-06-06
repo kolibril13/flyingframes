@@ -18,4 +18,5 @@ Content
     ch2
     ch3
     ch4_color_example
+    cheatsheet
             chX_TOSORT
