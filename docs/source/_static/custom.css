@@ -56,9 +56,6 @@
     cursor: pointer;
 }
 
-.wy-nav-content {
-    max-width: 1200px !important;
-}
 
 /* yikes-ish attempt at bugfix for navbar on some browsers */
 .sidebar-tree a.internal.reference {
