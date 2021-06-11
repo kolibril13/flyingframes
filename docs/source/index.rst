@@ -21,5 +21,4 @@ Content
     ch5
     ch6
     cheatsheet
-    chtest
             chX_TOSORT
