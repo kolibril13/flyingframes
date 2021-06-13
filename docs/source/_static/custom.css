@@ -56,6 +56,7 @@
     cursor: pointer;
 }
 
+
 /* yikes-ish attempt at bugfix for navbar on some browsers */
 .sidebar-tree a.internal.reference {
     display: table-cell;
@@ -66,7 +67,7 @@
     --color-admonition-title: #000000;
     --color-admonition-title-text: #d76666;
     --color-admonition-title-background: #099999;
-    --color-link: #73ff00;
+    --color-link: #054c1f;
     --color-link--hover: #ff00f2;
     --icon-admonition-default: none;
 }

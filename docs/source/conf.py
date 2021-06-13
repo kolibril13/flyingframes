@@ -47,11 +47,12 @@ release = '7/2021'
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = [
-    'manim_directive',
     'sphinx.ext.autodoc',
-    'sphinx.ext.autosummary'
+    'sphinx.ext.autosummary',
+    'nbsphinx'
 ]
 
+nbsphinx_allow_errors = True
 pygments_style = "sphinx"
 pygments_dark_style = "monokai"
 

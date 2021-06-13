@@ -1,4 +1,5 @@
 version: 2
+formats: all
 
 build:
   image: latest
@@ -10,3 +11,5 @@ python:
   install:
     - requirements: docs/rtd-requirements.txt
     - requirements: docs/requirements.txt
+  system_packages: true
+

@@ -1,28 +1,25 @@
- Example Gallery
+Example Gallery
 ========================================
 
-Here is the directive example
+Hi!
+FlyingFrames is a project by me (kolibril13), where I want to provide you some tutorials and code snippets that I often use when I prepare
+my animations for my youtube channel: https://www.youtube.com/channel/UCq-aIJ8sN1-G2ZzIyWYostw 
 
-.. manim:: ManimCELogo
+It does not replace the amazing documentation at https://docs.manim.community/en/stable/ , but I hope this blog will
+give you some inspiration for your future projects.
 
-    import manim
-    class ManimCELogo(Scene):
-        def construct(self):
-            banner = ManimBanner().scale(0.5)
-            self.add(Title(f"manim version {manim.__version__}").set_color(WHITE))
-            self.play(banner.create())
-            self.play(banner.expand())
-            self.wait()
+Content
+-------
 
-.. .. toctree::
-..    :maxdepth: 2
-..
-..       examples
+.. toctree::
+    :maxdepth: 2
+    :glob:
 
-
-.. Indices and tables
-.. ==================
-
-.. * :ref:`genindex`
-.. * :ref:`modindex`
-.. * :ref:`search`
+    ch1
+    ch2
+    ch3
+    ch4
+    ch5
+    ch6
+    cheatsheet
+            chX_TOSORT
