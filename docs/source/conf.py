@@ -18,6 +18,21 @@ import manim
 
 sys.path.insert(0, os.path.abspath('.'))
 
+if os.environ.get("READTHEDOCS") == "True":
+    site_path = get_python_lib()
+    ffmpeg_path = os.path.join(site_path, "imageio_ffmpeg", "binaries")
+    print("########")
+    print("good1")
+    [ffmpeg_bin] = [
+        file for file in os.listdir(ffmpeg_path) if file.startswith("ffmpeg-")
+    ]
+    print("########*****")
+    print("good2")
+    os.symlink(os.path.join(ffmpeg_path, ffmpeg_bin), os.path.join(ffmpeg_path, "ffmpeg"))
+    print("########*****###########")
+    print("good3")
+    os.environ["PATH"] += os.pathsep + ffmpeg_path
+    print("good4")
 
 # -- Project information -----------------------------------------------------
 
