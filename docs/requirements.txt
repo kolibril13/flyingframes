@@ -3,4 +3,5 @@ furo==2021.3.20b30
 sphinx-copybutton
 nbsphinx
 colorutils
-git+git://github.com/kolibril13/manim@flyingframes
+git+git://github.com/ManimCommunity/manim@main
+
