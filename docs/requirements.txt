@@ -4,4 +4,3 @@ sphinx-copybutton
 nbsphinx
 colorutils
 git+git://github.com/ManimCommunity/manim@main
-
