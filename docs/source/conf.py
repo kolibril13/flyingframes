@@ -56,7 +56,8 @@ release = '7/2021'
 extensions = [
     'sphinx.ext.autodoc',
     'sphinx.ext.autosummary',
-    'nbsphinx'
+    'nbsphinx',
+    'sphinx-copybutton'
 ]
 
 nbsphinx_allow_errors = True
