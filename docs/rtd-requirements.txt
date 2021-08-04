@@ -1,3 +1,4 @@
 imageio-ffmpeg
 ipykernel
+sphinx-copybutton
 nbsphinx
