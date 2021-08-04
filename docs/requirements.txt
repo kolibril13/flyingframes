@@ -1,5 +1,5 @@
-sphinx==3.5.3
-furo==2021.3.20b30
+sphinx==4.1.2
+furo
 sphinx-copybutton
 nbsphinx
 colorutils
