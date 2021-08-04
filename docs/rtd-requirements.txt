@@ -1,4 +1,0 @@
-imageio-ffmpeg
-ipykernel
-nbsphinx
-sphinx-copybutton
