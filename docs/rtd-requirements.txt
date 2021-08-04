@@ -1,5 +1,2 @@
 imageio-ffmpeg
 ipykernel
-sphinx-copybutton
-git+git:https://github.com/mgeier/nbsphinx@sphinxuseclass
-

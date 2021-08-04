@@ -1,6 +1,6 @@
-sphinx== 4.1.2
+sphinx== 4.0.2
 furo
 sphinx-copybutton
-git+git:https://github.com/mgeier/nbsphinx@sphinxuseclass
+nbsphinx
 colorutils
 git+git://github.com/kolibril13/manim@flyingframes
