@@ -1,6 +1,5 @@
-sphinx==3.5.3
+sphinx==4.1.2
 furo==2021.3.20b30
-sphinx-copybutton
-nbsphinx
-colorutils
 git+git://github.com/kolibril13/manim@flyingframes
+nbsphinx
+sphinx-copybutton
