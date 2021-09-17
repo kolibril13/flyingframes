@@ -23,5 +23,4 @@ Content
     ch6
     ch7
     cheatsheet
-            chX_TOSORT
     changelog
