@@ -1,102 +1,93 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
+
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-* {
-  box-sizing: border-box;
-}
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.0.3/styles/default.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.0.3/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
 
-body {
-  margin: 0;
-  font-family: Arial;
-}
+    <style>
+    .div1 {
+        width: 600px;
+        height: 150px;
+        border: 0px solid blue;
+    }
+    .image {
+        opacity: 1;
+        display: inline-block;
+        border: 2px solid darkcyan;
+        width: 80px;
+        height: auto;
+        margin: 1px;
+        transition: .1s ease;
+        backface-visibility: hidden;
+        border-radius: 8px;
+    }
+    .image:hover {
+        opacity: 0.4;
+    }
 
-/* The grid: Four equal columns that floats next to each other */
-.column {
-  float: left;
-  width: 25%;
-  padding: 10px;
-}
 
-/* Style the images inside the grid */
-.column img {
-  opacity: 0.8;
-  cursor: pointer;
-}
-
-.column img:hover {
-  opacity: 1;
-}
-
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-/* The expanding image container */
-.container {
-  position: relative;
-  display: none;
-}
-
-/* Expanding image text */
-#imgtext {
-  position: absolute;
-  bottom: 15px;
-  left: 15px;
-  color: white;
-  font-size: 20px;
-}
-
-/* Closable button inside the expanded image */
-.closebtn {
-  position: absolute;
-  top: 10px;
-  right: 15px;
-  color: white;
-  font-size: 35px;
-  cursor: pointer;
-}
 </style>
+    <title>Hello Manim</title>
+
 </head>
+
 <body>
 
 <div style="text-align:center">
-  <h2>Tabbed Image Gallery</h2>
-  <p>Click on the images below:</p>
+    <h2>All manim Mobjects</h2>
+    <a href="https://github.com/kolibril13/mobject-gallery">https://github.com/kolibril13/mobject-gallery</a>
+    <p><a href="debugging_page.html">Debugging Page</a></p>
+    <p>Hint: In PyCharm, activate the setting "Smart indent pasted lines"</p>
+
+    <p>Click on the images below to copy the code snippet:</p>
+
+</div>
+<div class="div1">
+
+<br>
+
+<pre><code class="python"><p id="info_field"><b>Here will come the text that you copied.</b>
+class Example(Scene):
+    def construct(self):
+        self.add(Dot(color=YELLOW)) </p>
+</code></pre>
 </div>
 
-<!-- The four columns -->
-<div class="row">
-  <div class="column">
-    <img src="_static/img_nature.jpg" alt="Nature" style="width:100%" onclick="myFunction(this);">
-  </div>
-  <div class="column">
-    <img src="_static/img_mountains.jpg" alt="Mountains" style="width:100%" onclick="myFunction(this);">
-  </div>
-  <div class="column">
-    <img src="_static/img_lights.jpg" alt="Lights" style="width:100%" onclick="myFunction(this);">
-  </div>
-</div>
-
-<div class="container">
-  <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
-  <img id="expandedImg" style="width:100%">
-  <div id="imgtext"></div>
-</div>
 
 <script>
-function myFunction(imgs) {
-  var expandImg = document.getElementById("expandedImg");
-  var imgText = document.getElementById("imgtext");
-  expandImg.src = imgs.src;
-  imgText.innerHTML = imgs.alt;
-  expandImg.parentElement.style.display = "block";
-}
+    var request = new XMLHttpRequest();
+    request.open("GET", "_static/Mobjects_Basics.json", false);
+    request.send(null);
+    var jsonData = JSON.parse(request.responseText);
+    document.writeln(' <h1>Basic Shapes</h1>')
+    for (let key of Object.keys(jsonData)) {
+        document.write(`<img src='_static/${key}' alt= '${jsonData[key]}' onclick='myFunction(this);' class='image'> `);
+    }
+    var request = new XMLHttpRequest();
+    request.open("GET", "_static/Mobjects_Text.json", false);
+    request.send(null);
+    var jsonData = JSON.parse(request.responseText);
+    document.writeln(' <h1>Text</h1>')
+    for (let key of Object.keys(jsonData)) {
+        document.write(`<img src='_static/${key}' alt= '${jsonData[key]}' onclick='myFunction(this);' class='image'> `);
+    }
+
+
+
+    // add copy button to images
+    function myFunction(imgs) {
+        var name = imgs.alt;
+        navigator.clipboard.writeText(name);
+        document.getElementById("info_field").innerHTML = name + " \n<b>is now copied to clipboard.</b>"
+    }
 </script>
+
 
 </body>
 </html>
+
