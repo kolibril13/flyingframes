@@ -1,4 +1,4 @@
-Mobject Gallery
+2. Mobject Gallery
 ===============================
 
 Here is a cool Mobject gallery!
