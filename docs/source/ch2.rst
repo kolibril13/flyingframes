@@ -1,7 +1,7 @@
 2. Mobject Gallery
 ===============================
 
-Here is a Mobject gallery ( Also as a standalone website here: https://kolibril13.github.io/mobject-gallery/)
+Also available on this standalone website: https://kolibril13.github.io/mobject-gallery/
 
 
 .. raw:: html
