@@ -45,7 +45,7 @@ copyright = 'kolibril13'
 author = 'kolibril13'
 
 # The full version, including alpha/beta/rc tags
-release = '7/2021'
+release = 'v.0.11.0'
 
 
 # -- General configuration ---------------------------------------------------
@@ -82,7 +82,9 @@ exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 
 # html_title = f"Some nice title v{manim.__version__}"
 html_theme = 'furo'
-html_logo = '_static/logo_small.png'
+html_logo = '_static/flyingframes_logo.png'
+html_favicon = '_static/flyingframes_favicon.ico'
+
 
 html_css_files = ["custom.css"]
 
