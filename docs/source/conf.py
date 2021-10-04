@@ -82,7 +82,7 @@ exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 
 # html_title = f"Some nice title v{manim.__version__}"
 html_theme = 'furo'
-#html_logo = '_static/logo.png'
+html_logo = '_static/logo_small.png'
 
 html_css_files = ["custom.css"]
 
