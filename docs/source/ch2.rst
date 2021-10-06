@@ -1,4 +1,4 @@
-2. Mobject Gallery
+Mobject Gallery
 ===============================
 
 Also available on this standalone website: https://kolibril13.github.io/mobject-gallery/

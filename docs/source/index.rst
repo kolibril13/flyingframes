@@ -27,8 +27,7 @@ Content
     ch4
     ch5
     ch6
-    ch7
+    carnot
     cheatsheet
     changelog
-    carnot
 
