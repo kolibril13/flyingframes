@@ -24,7 +24,6 @@ Content
     ch1
     ch2
     ch3
-    carnot
     ch4
     ch5
     ch6
