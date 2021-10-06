@@ -4,3 +4,4 @@ sphinx-copybutton
 nbsphinx
 git+git://github.com/kolibril13/manim@flyingframes
 colorutils
+matplotlib
