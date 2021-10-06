@@ -20,6 +20,16 @@ Content
     :maxdepth: 2
     :glob:
 
+    
+    ch1
+    ch2
+    ch3
     carnot
-
+    ch4
+    ch5
+    ch6
+    ch7
+    cheatsheet
+    changelog
+    carnot
 
