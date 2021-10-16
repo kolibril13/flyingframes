@@ -14,9 +14,8 @@ Content
     :maxdepth: 2
     :glob:
 
-    ch1
     opengl
-
+    withcairo
 
 Repository on GitHub:
 https://github.com/kolibril13/flyingframes
