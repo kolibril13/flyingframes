@@ -16,7 +16,6 @@ Content
 
     opengl
     withcairo
-    comparison
 
 Repository on GitHub:
 https://github.com/kolibril13/flyingframes
