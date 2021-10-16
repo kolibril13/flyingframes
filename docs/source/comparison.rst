@@ -1,9 +1,8 @@
 Comparison
 ===============================
 
-
-
 .. raw:: html
-   :file: page.html
+   :file: filename.html
+
 
 
