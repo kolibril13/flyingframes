@@ -14,17 +14,8 @@ Content
     :maxdepth: 2
     :glob:
 
-    
-    ch1
-    ch2
-    ch3
-    ch4
-    ch5
-    ch6
-    carnot
-    cheatsheet
-    changelog
-
+    opengl
+    withcairo
 
 Repository on GitHub:
 https://github.com/kolibril13/flyingframes
