@@ -1,7 +1,7 @@
 sphinx== 4.1.2
 furo
 sphinx-copybutton
-nbsphinx
+git+https://github.com/mgeier/nbsphinx@copybtn-update
 git+https://github.com/kolibril13/manim@flyingframes
 colorutils
 matplotlib
