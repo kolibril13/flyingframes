@@ -3,6 +3,7 @@ furo
 sphinx-copybutton
 nbsphinx
 
-git+https://github.com/kolibril13/manim@flyingframes
+manim
+# git+https://github.com/kolibril13/manim@flyingframes
 colorutils
 matplotlib
