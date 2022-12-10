@@ -23,7 +23,6 @@ Content
     ch6
     carnot
     ch8
-    cheatsheet
     changelog
 
 
