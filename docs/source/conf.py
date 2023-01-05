@@ -31,7 +31,7 @@ if os.environ.get("READTHEDOCS") == "True":
     try:
         os.symlink(os.path.join(ffmpeg_path, ffmpeg_bin), os.path.join(ffmpeg_path, "ffmpeg"))
     except FileExistsError:
-        print('File is already there!!!!!!!' )
+        print('File is already there!!' )
     else:
         print('file created :)')
     print("good3")
